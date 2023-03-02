@@ -20,15 +20,15 @@ In this lab, we explored new ways of testing code such as white box testing usin
 
 <img src="media/expandToInclude.jpg" alt="media/expandToInclude.jpg" width="800"/>
 Def-path set:
-- du(1, range) = {[1,2],[1,3,4],[1,3,5,6],[1,3,5,7]}
-- du(1, value) = {[1,2],[1,3,4],[1,3,5,6]}
+ - du(1, range) = {[1,2],[1,3,4],[1,3,5,6],[1,3,5,7]}
+ - du(1, value) = {[1,2],[1,3,4],[1,3,5,6]}
 Def-pair set:
-- du(1, 4, range) = {[1,3,4]}
-- du(1, 7, range) = {[1,3,5,7]}
-- du(1, 6, range) = {[1,3,5,6]}
-- du(1, 2, value) = {[1,2]}
-- du(1, 4, value) = {[1,3,4]}
-- du(1, 6, value) = {[1,3,5,6]}
+ - du(1, 4, range) = {[1,3,4]}
+ - du(1, 7, range) = {[1,3,5,7]}
+ - du(1, 6, range) = {[1,3,5,6]}
+ - du(1, 2, value) = {[1,2]}
+ - du(1, 4, value) = {[1,3,4]}
+ - du(1, 6, value) = {[1,3,5,6]}
 
 # 3 A detailed description of the testing strategy for the new unit test
 
