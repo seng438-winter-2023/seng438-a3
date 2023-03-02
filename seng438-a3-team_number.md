@@ -51,7 +51,13 @@ DU Tests
 | testNullRangeValueUpperBound()      | dcu {2}, dpu {(1,2)}     |
 | testNullRangeValueLowerBound()      | dcu {2}, dpu {(1,2)}     | 
 | testNegativeValueLowerBound()       | dcu {4}, dpu {(1,3,4)}   |
-| testNegativeValueUpperBound()       | dcu {4}, dpu {(1,3,4)}
+| testNegativeValueUpperBound()       | dcu {4}, dpu {(1,3,4)}   |
+
+For the expandToInclude() method, we got a 100% coverage from the test cases and it also shows in the coverage calculation. Since we had 100% coverage, we had no in feasible cases.
+
+CU = 9, PU = 9
+Coverage = (CU / PU) x 100%
+Coverage = 100%
 
 
 
