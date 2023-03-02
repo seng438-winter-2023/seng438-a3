@@ -55,11 +55,7 @@ DU Tests
 | testNegativeValueLowerBound()       | {4}     | {(1,3,4)}   |
 | testNegativeValueUpperBound()       | {4}     | {(1,3,4)}   |
 
-For the expandToInclude() method, we got a 100% coverage from the test cases and it also shows in the coverage calculation. Since we had 100% coverage, we had no in feasible cases.
-
 CU = 9, PU = 9
-Coverage = (CU / PU) x 100%
-Coverage = 100%
 
 #### Data Utilities Class
 
@@ -105,6 +101,8 @@ DU Tests
 | calculateColumnTotalForThreeParam()            | {4,6,7}         | {(1,2),(1,End),(5,6),(5,10),(9,5)} |
 | calculateColumnTotalForThreeParamNull()        | {4,6,7}         | {(1,2),(1,End),(5,6),(5,10),(9,5)} |
 | calculateColumnTotalForThreeParamRowCount()    | {4,6,7}         | {(5,6),(5,10),(6,9),(9,5)}         |
+
+CU = 10, PU = 13
 
 
 # 3 A detailed description of the testing strategy for the new unit test
