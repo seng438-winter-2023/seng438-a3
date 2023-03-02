@@ -65,6 +65,17 @@ Coverage = 100%
 
 <img src="media/calculateColumn.jpg" alt="calculateColumn.jpg" width="800"/>
 
+Def-path set:
+- du (1,data) = { [1,2,4], [1,2,3,4], [1,2,4,5,6,7], [1,2,3,4,5,6,7]}
+- du (1,column) = {[1,2,4,5,6,7], [1,2,3,4,5,6,7]}
+- du(1, v) = {[1,2,4,5,6,9], [1,2,3,4,5,6,9], [1,2,4,5,6,7,9], [1,2,3,4,5,6,7,9], [1,2,4,5,6,7,8,9], [1,2,3,4,5,6,7,8,9]}
+- du (2,total) = {[2,4,5,6,7,8], [2,4,5,10], [2,4,5,6,9,5,10],[2,4,5,6,7,9,5,10],[2,4,5,6,7,8,9,5,10]}
+- du (3,total) = {[3,4,5,6,7,8], [3,4,5,10], [3,4,5,6,9,5,10],[3,4,5,6,7,9,5,10], [3,4,5,6,7,8,9,5,10]}
+- du (7, n) = {[7,8]}
+
+
+
+
 # 3 A detailed description of the testing strategy for the new unit test
 
 We took a look at the coverage of our test cases from our previous lab before making new ones. It helped us understand the methodology of white box testing and some things that we missed. Before we wrote any new test cases to get better coverage, we took a look at the methods that we wanted to test. We recognized all the possible branches in each method, edge cases that could break the functionally of the methods, and exception handling. We carefully made a list of all the inputs that we were planning to use for each unit test and their expected outcome. Some of the tests were very obvious but we did not want to leave any room for error so we tested everything we could. Most of the methods had some visible flaws just by examining the code and it was easy to write test cases for them but some were very tricky to diagnose. 
