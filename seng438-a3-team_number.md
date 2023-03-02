@@ -32,6 +32,12 @@ Def-pair set:
 - du(1, 4, value) = {[1,3,4]}
 - du(1, 6, value) = {[1,3,5,6]}
 
+| Variable 	| Defined at Node 	| DCU     	| DPU                                   	|   	
+|----------	|-----------------	|---------	|---------------------------------------	|
+| range    	| 1               	| {4,6,7} 	| {(1,2),(1,3),(3,4),(3,5),(5,6),(5,7)} 	|   	
+| value    	| 1               	| {2,4,6} 	| {(3,4),(3,5),(5,6),(5,7)}             	|   	
+
+
 # 3 A detailed description of the testing strategy for the new unit test
 
 Text…
