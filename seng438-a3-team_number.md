@@ -123,7 +123,16 @@ Method:
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
-Text…
+In the lab, we used the recommended coverage tool,  EclEmma, since it is built-in in Eclipse. Even though EclEmma was easy to set up for our testing suite, it has its pros and cons. Some of its pros are:
+- EclEmma is a free and open source tool. We were able to access its documentation and get a better understanding of its functionality.
+- EclEmma provides an easy analysis of the code being tested by highlighting with green, yellow, and red. Green meaning that the code was captured in our test cases. Yellow meaning that some of the code was captured in our test cases. Red meaning that we did not capture the red highlighted code in our test cases.
+- EclEmma allows us to track the coverage for lines, branches, methods, and much more.
+
+With all these good features, EclEmma also has its cons, which are:
+- EclEmma only supports Java and thus can not be used on other programming languages.
+- EclEmma does not have mutation coverage or a condition counter.
+- EclEmma can only be used in Eclipse and not in other IDEs
+
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
