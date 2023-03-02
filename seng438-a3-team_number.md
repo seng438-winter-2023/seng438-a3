@@ -122,16 +122,16 @@ In our initial test cases from assignment 2, we did not cover this function so w
 - Method: increased 4.3 %
 
 Class: Range 
-
 Method: Intersects(double b0, double b1)
+
 In our initial test cases from assignment 2, we did have some test cases for this method but they did not have good coverages. This method has a total of 8 branches and 3 lines and we were able to capture all of them with our test cases. This method returns true if the range intersects with the specified range, and false otherwise. We have test cases that cover valid ranges, invalid ranges, and null ranges. The testing of this method continued the following percentages to the overall coverages:
 - Branch: increased 11.3%
 - Line: increased 2.8 %
 - Method: increased 4.3 %
 
 Class: Range
-
 Method: Contains(double value)
+
 In our initial test cases from assignment 2, we did have some test cases for this method and they have good coverages. This method has a total of 8 branches and 5 lines. Some of the branches were hard to capture in our test cases. This method returns true if the range contains the specified value and false otherwise. We have test cases that cover values inside the range, outside the range, and null values. The testing of this method contributed the following percentages to the overall coverages:
 - Branch: increased 8.6%
 - Line: increased 4.7 %
