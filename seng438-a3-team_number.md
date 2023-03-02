@@ -154,4 +154,4 @@ In this lab, we explored the coverage tool called EclEmma. At first, we were hav
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+The instructions should be more clear for this lab assignment and some of the images were not showing properly on the github classroom. We had to go into the media folder to look at the images that the instructions were talking about. This lab was very interesting and informative. It taught a lot about white box testing and how it can be a very effective method of testing code. We would like to see TAs make short videos on D2L on how to set up these new tools that we are learning. That was, we can spend more time on the actual lab rather than troubleshooting issues. It would also be nice if the TAs did an overview of the lab assignment, things to look out for and tips in general. Overall, this lab was very enjoyable and informative.
