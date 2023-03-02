@@ -73,7 +73,7 @@ Text…
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Range Class
+#### Range Class
 
 Branch:
 
@@ -86,6 +86,20 @@ Line:
 Method:
 
 <img src="media/Range_Method.png" alt="media/Range_Method.png" width="800"/>
+
+#### Data Utilities Class
+
+Branch:
+
+<img src="media/DU_Branch.png" alt="media/DU_Branch.png" width="800"/>
+
+Line:
+
+<img src="media/DU_Line.png" alt="media/DU_Line.png" width="800"/>
+
+Method:
+
+<img src="media/DU_Method.png" alt="media/DU_Method.png" width="800"/>
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
