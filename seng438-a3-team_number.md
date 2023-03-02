@@ -59,7 +59,7 @@ CU = 9, PU = 9
 Coverage = (CU / PU) x 100%
 Coverage = 100%
 
-
+<img src="media/calculateColumn.jpg" alt="calculateColumn.jpg" width="800"/>
 
 # 3 A detailed description of the testing strategy for the new unit test
 
