@@ -150,7 +150,7 @@ When working in pairs, we decided to do pair programming where one person from a
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+In this lab, we explored the coverage tool called EclEmma. At first, we were having trouble setting it up in Eclipse since the assignment instructions were not very clear. Once we set up EclEmma, we were able to start the actual lab assignment. It was our first time using this tool so it was hard for us to understand in the beginning. We didn’t really know how to relate the testing to the code coverage. We weren’t taught in class or lab the proper way of using coverage tools. We were able to get a bit of understanding of EclEmma by browsing the internet and watching YouTube videos on it. Once we fully understood how to use EclEmma, we were able to make a lot of progress on our testing very quickly. Although we did have some trouble with infeasible cases as we didn’t really know that such cases were infeasible even though they appear feasible. Overall, we would say that the lack of instructions on the proper setup and usage of EclEmma make this assignment time consuming as we spend a lot of time trying to figure out how to use the tool properly. Other than that, the lab was easy.
 
 # 10 Comments/feedback on the lab itself
 
