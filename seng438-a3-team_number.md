@@ -122,6 +122,7 @@ In our initial test cases from assignment 2, we did not cover this function so w
 - Line: increased 12.3 %
 - Method: increased 4.3 %
 
+
 Class: Range 
 
 Method: Intersects(double b0, double b1)
@@ -130,6 +131,7 @@ In our initial test cases from assignment 2, we did have some test cases for thi
 - Branch: increased 11.3%
 - Line: increased 2.8 %
 - Method: increased 4.3 %
+
 
 Class: Range
 
