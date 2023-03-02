@@ -32,15 +32,27 @@ Def-pair set:
 - du(1, 4, value) = {[1,3,4]}
 - du(1, 6, value) = {[1,3,5,6]}
 
+DU Table
+
 | Variable 	| Defined at Node 	| DCU     	| DPU                                   	|   	
 |----------	|-----------------	|---------	|---------------------------------------	|
 | range    	| 1               	| {4,6,7} 	| {(1,2),(1,3),(3,4),(3,5),(5,6),(5,7)} 	|   	
 | value    	| 1               	| {2,4,6} 	| {(3,4),(3,5),(5,6),(5,7)}             	|   	
 
-| Variable | Defined at Node | DCU     | DPU                                   |   
-|----------|-----------------|---------|---------------------------------------|
-| range    | 1               | {4,6,7} | {(1,2),(1,3),(3,4),(3,5),(5,6),(5,7)} |   
-| value    | 1               | {2,4,6} | {(3,4),(3,5),(5,6),(5,7)}             |   
+DU Tests
+
+| Test                                | Pair Covered             |
+|-------------------------------------|--------------------------|
+| testExpandToIncludeValueInRange()   | dcu {7}, dpu {(1,3,5,7)} |
+| testValueGreaterThanMaxLowerBound() | dcu {6}, dpu {(1,3,5,6)} | 
+| testValueLessThanMinLowerBound()    | dcu {4}, dpu {(1,3,4)}   |
+| testValueGreaterThanMaxUpperBound() | dcu {6}, dpu {(1,3,5,6)} |
+| testValueLessThanMinUpperBound()    | dcu {4}, dpu {(1,3,4)}   |
+| testNullRangeValueUpperBound()      | dcu {2}, dpu {(1,2)}     |
+| testNullRangeValueLowerBound()      | dcu {2}, dpu {(1,2)}     | 
+| testNegativeValueLowerBound()       | dcu {4}, dpu {(1,3,4)}   |
+| testNegativeValueUpperBound()       | dcu {4}, dpu {(1,3,4)}
+
 
 
 # 3 A detailed description of the testing strategy for the new unit test
