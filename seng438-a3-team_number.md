@@ -18,7 +18,7 @@ In this lab, we explored new ways of testing code such as white box testing usin
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-<img src="media/expandToInclude.jpg" alt="media/expandToInclude.jpg" width="360"/>
+<img src="media/expandToInclude.jpg" alt="media/expandToInclude.jpg" width="720"/>
 
 # 3 A detailed description of the testing strategy for the new unit test
 
