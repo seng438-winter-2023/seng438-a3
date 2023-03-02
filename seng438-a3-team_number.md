@@ -117,7 +117,7 @@ Class: Range
 
 Method: combineIgnoringNaN(Range range1, Range range2)
 
-In our initial test cases from assignment 2, we did not cover this function so we did not really have a good idea about the impact this function could make on the coverage percentages. This function has a total of 14 branches, which is a lot of branches compared to the other functions. This function returns a new range that spans both range1 and range2. This method has a special handling to ignore Double.NaN values. We were able to capture 13 of the 14 branches, all 13 lines, and the method itself with our test cases. We have test cases that cover valid ranges, invalid ranges, null ranges, valid value, invalid value, NaN values, and null values.  The testing of this method contributed the following percentages to the overall coverages:
+In our initial test cases from assignment 2, we did not cover this function so we did not really have a good idea about the impact this function could make on the coverage percentages. This function has a total of 14 branches, which is a lot of branches compared to the other functions. This function returns a new range that spans both range1 and range2. This method has a special handling to ignore Double.NaN values. We tested this function with test cases that consists of null ranges, NaN ranges, nominal ranges, positive ranges and negative ranges. In the end, we were able to capture 13 of the 14 branches, all 13 lines, and the method itself with our test cases. The testing of this method contributed the following percentages to the overall coverages:
 - Branch: increased 18.3%
 - Line: increased 12.3 %
 - Method: increased 4.3 %
@@ -142,6 +142,27 @@ In our initial test cases from assignment 2, we did have some test cases for thi
 - Line: increased 4.7 %
 - Method: increased 4.3 %
 
+
+Class: DataUtilities
+
+Method: createNumberArray(double [] array)
+
+In our initial test cases from assignment 2, we did not have any test cases that covered this method. We took a look at the implementation of this method to get an idea for the test cases we wanted to try. This method has a total of 2 branches and 5 lines. We were able to capture all the branches and lines in our test cases, which boosted the coverage percentages. To test this method, we made test cases that consisted of null arrays, nominal arrays, and zero arrays. The testing of this method contributed the following percentages to the overall coverages:
+- Branch: increased 3.7 %
+- Line: increased 5.7 %
+- Method: increased 10.0 % 
+
+
+Class: DataUtilities
+
+Method: calculateColumnTotal(Values2D data, int column)
+
+In out initial test cases from assignemnt 2, we did have some test cases for this method but it did not have good code coverage. We took a look at the implementation of the method to get an idea of where to start with the testing. This method has a total of 8 branches and 12 lines. With careful planning and development of our test cases, we were able to capture 7 branches and all 12 lines in the coverage. It booseted our coverage percentanges significantly. In our test cases, we used nominal numbers, null numbers, NaNs, and zeros.The testing of this method contributed the following percentages to the overall coverages:
+- Branch: increased 13.6 %
+- Line: increased 12.9 %
+- Method: increased 10.0 % 
+
+ 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
