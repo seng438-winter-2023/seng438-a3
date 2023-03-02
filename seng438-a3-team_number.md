@@ -63,7 +63,9 @@ Coverage = 100%
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+We took a look at the coverage of our test cases from our previous lab before making new ones. It helped us understand the methodology of white box testing and some things that we missed. Before we wrote any new test cases to get better coverage, we took a look at the methods that we wanted to test. We recognized all the possible branches in each method, edge cases that could break the functionally of the methods, and exception handling. We carefully made a list of all the inputs that we were planning to use for each unit test and their expected outcome. Some of the tests were very obvious but we did not want to leave any room for error so we tested everything we could. Most of the methods had some visible flaws just by examining the code and it was easy to write test cases for them but some were very tricky to diagnose. 
+Our group split into two pairs and we also split all the methods from the classes being tested in half. Hamza and Bilal worked on one half of the methods and Yousef and Issam worked on the other half of the methods. The goal of each pair was to get as much branch coverage, line coverage and method coverage as possible for their half of the methods. Once each pair was exhaustive with their testing, we switched the method partition with each other. That way, we have the best chance of catching the test cases that the other pair missed. This worked very well for us.
+
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
