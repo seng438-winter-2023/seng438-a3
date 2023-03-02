@@ -75,12 +75,10 @@ Text…
 
 Range Class
 
-Branch
-
+Branch:
 <img src="media/Range_Branch.png" alt="media/Range_Branch.png" width="800"/>
 
-Line
-
+Line:
 <img src="media/Range_Line.png" alt="media/Range_Line.png" width="800"/>
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
