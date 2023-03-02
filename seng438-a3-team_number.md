@@ -98,6 +98,13 @@ DU Table
 | n    	| 7               	| {8} 	| {(7,8),(7,9)}             	| 
 | v    	| 5               	| {} 	| {(5,6),(5,10),(9,5)}             	| 
 
+DU Tests
+
+| Test                                           | DCU             | DPU                                |
+|------------------------------------------------|------------------------------------------------------|
+| calculateColumnTotalForThreeParam()            | {4,6,7}         | {(1,2),(1,End),(5,6),(5,10),(9,5)} |
+| calculateColumnTotalForThreeParamNull()        | {4,6,7}         | {(1,2),(1,End),(5,6),(5,10),(9,5)} |
+| calculateColumnTotalForThreeParamRowCount()    | {4,6,7}         | {(5,6),(5,10),(6,9),(9,5)}         |
 
 
 # 3 A detailed description of the testing strategy for the new unit test
