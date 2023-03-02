@@ -18,6 +18,8 @@ In this lab, we explored new ways of testing code such as white box testing usin
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
+#### Range Class
+
 <img src="media/expandToInclude.jpg" alt="media/expandToInclude.jpg" width="800"/>
 
 Def-path set:
@@ -58,6 +60,8 @@ For the expandToInclude() method, we got a 100% coverage from the test cases and
 CU = 9, PU = 9
 Coverage = (CU / PU) x 100%
 Coverage = 100%
+
+#### Data Utilities Class
 
 <img src="media/calculateColumn.jpg" alt="calculateColumn.jpg" width="800"/>
 
