@@ -114,6 +114,7 @@ Our group split into two pairs and we also split all the methods from the classe
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
 Class: Range
+
 Method: combineIgnoringNaN(Range range1, Range range2)
 
 In our initial test cases from assignment 2, we did not cover this function so we did not really have a good idea about the impact this function could make on the coverage percentages. This function has a total of 14 branches, which is a lot of branches compared to the other functions. This function returns a new range that spans both range1 and range2. This method has a special handling to ignore Double.NaN values. We were able to capture 13 of the 14 branches, all 13 lines, and the method itself with our test cases. We have test cases that cover valid ranges, invalid ranges, null ranges, valid value, invalid value, NaN values, and null values.  The testing of this method contributed the following percentages to the overall coverages:
@@ -122,6 +123,7 @@ In our initial test cases from assignment 2, we did not cover this function so w
 - Method: increased 4.3 %
 
 Class: Range 
+
 Method: Intersects(double b0, double b1)
 
 In our initial test cases from assignment 2, we did have some test cases for this method but they did not have good coverages. This method has a total of 8 branches and 3 lines and we were able to capture all of them with our test cases. This method returns true if the range intersects with the specified range, and false otherwise. We have test cases that cover valid ranges, invalid ranges, and null ranges. The testing of this method continued the following percentages to the overall coverages:
@@ -130,6 +132,7 @@ In our initial test cases from assignment 2, we did have some test cases for thi
 - Method: increased 4.3 %
 
 Class: Range
+
 Method: Contains(double value)
 
 In our initial test cases from assignment 2, we did have some test cases for this method and they have good coverages. This method has a total of 8 branches and 5 lines. Some of the branches were hard to capture in our test cases. This method returns true if the range contains the specified value and false otherwise. We have test cases that cover values inside the range, outside the range, and null values. The testing of this method contributed the following percentages to the overall coverages:
