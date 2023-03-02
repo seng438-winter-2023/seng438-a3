@@ -144,6 +144,7 @@ Test generation is the process of creating a test suite to test the functionalit
 Our group decided to split all the methods for the Range and DataUtilities classes into two partitions. Each pair worked on their partition and once they were exhaustive with the testing, we switched the partition with each other. That way, we had the best chance of covering all the test cases. Our group split into two pairs. The pairs were:
 - Hamza and Bilal (Pair 1)
 - Yousef and Issam (Pair 2)
+
 When working in pairs, we decided to do pair programming where one person from a pair would share their screen on Discord with the other person in the pair and work on the tests together. It really helped us catch any mistakes we were making and come up with effective test cases. 
 
 
