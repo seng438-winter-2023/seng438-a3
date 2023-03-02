@@ -73,7 +73,10 @@ Text…
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+Range Class
+
+Branch
+<img src="media/Range_Branch.png" alt="media/Range_Branch.png" width="800"/>
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
