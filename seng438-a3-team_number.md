@@ -43,17 +43,17 @@ DU Table
 
 DU Tests
 
-| Test                                | Pair Covered             |
-|-------------------------------------|--------------------------|
-| testExpandToIncludeValueInRange()   | dcu {7}, dpu {(1,3,5,7)} |
-| testValueGreaterThanMaxLowerBound() | dcu {6}, dpu {(1,3,5,6)} | 
-| testValueLessThanMinLowerBound()    | dcu {4}, dpu {(1,3,4)}   |
-| testValueGreaterThanMaxUpperBound() | dcu {6}, dpu {(1,3,5,6)} |
-| testValueLessThanMinUpperBound()    | dcu {4}, dpu {(1,3,4)}   |
-| testNullRangeValueUpperBound()      | dcu {2}, dpu {(1,2)}     |
-| testNullRangeValueLowerBound()      | dcu {2}, dpu {(1,2)}     | 
-| testNegativeValueLowerBound()       | dcu {4}, dpu {(1,3,4)}   |
-| testNegativeValueUpperBound()       | dcu {4}, dpu {(1,3,4)}   |
+| Test                                | DCU     | DPU            |
+|-------------------------------------|---------|----------------|
+| testExpandToIncludeValueInRange()   | dcu {7},|dpu {(1,3,5,7)} |
+| testValueGreaterThanMaxLowerBound() | dcu {6},|dpu {(1,3,5,6)} | 
+| testValueLessThanMinLowerBound()    | dcu {4},|dpu {(1,3,4)}   |
+| testValueGreaterThanMaxUpperBound() | dcu {6},|dpu {(1,3,5,6)} |
+| testValueLessThanMinUpperBound()    | dcu {4},|dpu {(1,3,4)}   |
+| testNullRangeValueUpperBound()      | dcu {2},|dpu {(1,2)}     |
+| testNullRangeValueLowerBound()      | dcu {2},|dpu {(1,2)}     | 
+| testNegativeValueLowerBound()       | dcu {4},|dpu {(1,3,4)}   |
+| testNegativeValueUpperBound()       | dcu {4},|dpu {(1,3,4)}   |
 
 For the expandToInclude() method, we got a 100% coverage from the test cases and it also shows in the coverage calculation. Since we had 100% coverage, we had no in feasible cases.
 
