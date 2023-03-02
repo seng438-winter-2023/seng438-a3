@@ -19,6 +19,7 @@ In this lab, we explored new ways of testing code such as white box testing usin
 # 2 Manual data-flow coverage calculations for X and Y methods
 
 <img src="media/expandToInclude.jpg" alt="media/expandToInclude.jpg" width="800"/>
+
 Def-path set:
 - du(1, range) = {[1,2],[1,3,4],[1,3,5,6],[1,3,5,7]}
 - du(1, value) = {[1,2],[1,3,4],[1,3,5,6]}
