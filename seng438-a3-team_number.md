@@ -76,10 +76,16 @@ Text…
 Range Class
 
 Branch:
+
 <img src="media/Range_Branch.png" alt="media/Range_Branch.png" width="800"/>
 
 Line:
+
 <img src="media/Range_Line.png" alt="media/Range_Line.png" width="800"/>
+
+Method:
+
+<img src="media/Range_Method.png" alt="media/Range_Method.png" width="800"/>
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
